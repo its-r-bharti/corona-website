@@ -1,0 +1,187 @@
+@media only screen and (min-width:300px) and (max-width:550px){
+    .logo img{
+        width: 270%;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-in-out;
+        height: 500px;
+    }
+    #search{
+        width: 80%;
+        margin-bottom: 6px;
+    }
+    .Right-nav{
+        text-align: center;
+    }
+    .burger{
+        
+        display: block;
+    }
+    .h-nav{
+        height: 44px;
+    }
+    .opacity0{
+        opacity: 0;
+    }
+    .main-box{
+      
+        flex-direction: column-reverse;
+
+        max-width: 100%;
+        padding: 20px;  
+    }
+    .Right-box img{
+        width: 100px;
+
+    }
+    .button{
+        text-align: center;
+    }
+    
+
+
+    .text-big {
+        font-size: 22px;
+        font-style: italic;
+        font-weight: 600;
+        font-family: 'Dela Gothic One', cursive;
+    }
+
+    
+
+    .first-section {
+        height: 70vh;
+    }
+
+
+    .main-box-2{
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+
+        padding-bottom: 5px;
+       
+    }
+    .main-box-3{
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+
+        padding-bottom: 5px;
+       
+    }
+    .thumbnail img {
+        border: 2px solid red;
+        border-radius: 34px;
+        width: 166px;
+        margin-top: -51px;
+        margin-left: 42px;
+    }
+    .thumbnail {
+        padding-top: 60px;
+        padding-left: 37px;
+    }
+}
+
+
+
+
+
+@media (max-width:300px){
+    .logo img{
+        width: 300%;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-in-out;
+        height: 500px;
+    }
+    #search{
+        width: 100%;
+        margin-bottom: 33px;
+    }
+    
+    .Right-nav{
+        text-align: center;
+    }
+    .burger{
+        
+        display: block;
+    }
+    .h-nav{
+        height: 44px;
+    }
+    .opacity0{
+        opacity: 0;
+    }
+    .main-box{
+      
+        flex-direction: column-reverse;
+
+        max-width: 100%;
+        padding: 20px;  
+    }
+    .Right-box img{
+        width: 100px;
+
+    }
+    .button{
+        text-align: center;
+    }
+    
+
+
+    .text-big {
+        font-size: 22px;
+        font-style: italic;
+        font-weight: 600;
+        font-family: 'Dela Gothic One', cursive;
+    }
+
+    
+
+    .first-section {
+        height: 110vh;
+    }
+
+    .main-box-2{
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+
+        padding-bottom: 5px;
+       
+    }
+    .main-box-3{
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+
+        padding-bottom: 5px;
+       
+    }
+    .thumbnail img {
+        border: 2px solid red;
+        border-radius: 34px;
+        width: 166px;
+        margin-top: -51px;
+        margin-left: 42px;
+    }
+    .thumbnail {
+        padding-top: 48px;
+        padding-left: 6px;
+    }
+
+
+}

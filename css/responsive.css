@@ -1,0 +1,51 @@
+@media only screen and (min-width:550px) and (max-width:850px){
+    .logo img{
+        width: 141%;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-in-out;
+        height: 500px;
+    }
+    #search{
+        width: 80%;
+        margin-bottom: 6px;
+    }
+    .Right-nav{
+        text-align: center;
+    }
+    .burger{
+        
+        display: block;
+    }
+    .h-nav{
+        height: 44px;
+    }
+    .opacity0{
+        opacity: 0;
+    }
+    .main-box{
+      
+        flex-direction: column-reverse;
+
+        max-width: 100%;
+        padding: 20px;
+    }
+    .Right-box img{
+        width:240px;
+
+    }
+    
+
+    .first-section {
+        height: 100vh;
+    }
+
+    .button{
+        text-align: center;
+    }
+    
+}

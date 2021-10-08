@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+ /* for this font use this family :  font-family: 'Dela Gothic One', cursive; */
+
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;1,300&display=swap');
+ /* for this font use this family : font-family: 'IBM Plex Sans', sans-serif;*/
+
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;1,300&family=Yanone+Kaffeesatz:wght@200&display=swap');
+/* for this font use this family : font-family: 'Yanone Kaffeesatz', sans-serif*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+    border: none;
+    
+}
+.logo{
+    width: 8%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logo img{
+    
+    width: 68%;
+    border: 2px solid white;
+    border-radius: 50%;
+    /* padding-left: 0px; */
+    margin-left: 2px;
+}
+.nav-list{
+    display: flex;
+    width: 70%;
+    
+    
+    align-items: center;
+}
+.nav-list li{
+   
+    list-style: none;
+    padding: 17px 32px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-list li a {
+text-decoration: none;
+color: black;
+}
+.nav-list li a:hover{
+    color: rgb(238, 13, 13);
+    }
+.Right-nav{
+   
+    width: 33%;
+    text-align: right;
+    padding: 0px 25px;
+}
+#search{
+    border-radius: 10px;
+    padding: 5px 0px;
+   border: black 2px solid;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.line{
+    width: 33px;
+    background: white;
+    height: 4px;
+    margin: 5px 3px;
+  
+
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+    top: 5%;
+    display: none;
+}
+
+
+
+
+
+.background{
+    background: rgba(0, 0, 0, 0.5) url('../img/background2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+.first-section{
+    height: 95vh;
+
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 60%;
+    margin: auto;
+    padding: 50px;
+    height: 80%;
+}
+.left-box{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+.Right-box{
+    width: 30%;
+}
+.Right-box img{
+    border: 5px solid wheat;
+    border-radius: 143px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 800;
+    font-family: 'Dela Gothic One', cursive;
+}
+.text-small{
+    font-size: 20px;
+   
+}
+.btn{
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 15px;
+    background: none;
+    color: white
+   
+
+}
+.btn2{
+    margin-top: 15px;
+}
+.btn2:hover{
+
+    font-weight: 900;
+    
+}
+/* .second-section{
+    background: rgba(184, 167, 167, 0.651)
+} */
+
+.main-box-2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 16px;
+   
+}
+.Paragraph{
+    margin: 20px;
+}
+.second-section-Big-text{
+    text-align: center;
+    font-size: 27px;
+    margin: 11px;
+    font-weight: 550;
+    color: blue;
+}
+.second-section-Small-text{
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+.thumbnail{
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.thumbnail img{
+    border: 2px solid red;
+    border-radius: 34px;
+    width: 200px;
+    margin-top: 20px;
+}
+.main-box-3{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 16px;
+   
+}
+
+.center-text{
+    text-align: center;
+    padding: 25px;
+}
+.form{
+
+    margin: auto;
+    max-width: 350px;
+}
+
+.form input{
+    width: 100%;
+    font-size: 18px;
+    margin: 10px 0px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: black solid 2px;
+    border-radius: 5px
+}
+.button1{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 12px;
+}
+.submit-btn{
+    padding: 4px 18px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 3px solid darkgreen;
+    cursor: pointer;
+    
+}
+.submit-btn:hover{
+    background-color: blue;
+    color: white;
+}
+.footer-text{
+    height: 18px;
+    width: 72%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 23px;
+    padding-bottom: 7px;
+}
+
